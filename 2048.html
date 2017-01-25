@@ -1,0 +1,93 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="2048.css">
+	<script src="2048.js" type="application/ecmascript"></script>
+</head>
+
+<body>
+	<div id = "body-container">
+	<div id = "display-container">
+	<div id = "score-display">
+
+		<p></p>
+		<h3>Score</h3>
+	</div>
+		<div id = "highscore-display">
+			
+		<p></p>
+		<h3>High-Score</h3>
+	</div>
+		<div id = "undo">
+			<p>Undo</p>
+		</div>
+		<div id = "New-Game">
+			<p>New Game</p>
+		</div>
+	</div>
+	<div id = "game-container">
+		<div class = "grid-row">
+		<div class = "block" id = "0">
+			<p></p>
+					</div>
+		<div class = "block" id = "1">
+		<p></p>
+		</div>
+		<div class = "block " id = "2">
+			<p></p>
+		</div>
+		<div class = "block" id = "3">
+			<p></p>
+		</div>
+		</div>
+		<div class = "grid-row">
+		<div class = "block" id = "4">
+			<p></p>
+		</div>
+		<div class = "block" id = "5">
+			<p></p>
+		</div>
+		<div class = "block" id = "6">
+			<p></p>
+		</div>
+		<div class = "block" id = "7">
+			<p></p>
+		</div>
+		</div>
+		<div class = "grid-row">
+		<div class = "block" id = "8">
+			<p></p>
+		</div>
+		<div class = "block" id = "9">
+			<p></p>
+		</div>
+		<div class = "block" id = "10">
+			<p></p>
+		</div>
+		<div class = "block" id = "11">
+			<p></p>
+		</div>
+		</div>
+		<div class = "grid-row">
+		<div class = "block" id = "12">
+			<p></p>
+		</div>
+		<div class = "block" id = "13">
+			<p></p>
+		</div>
+		<div class = "block" id = "14">
+			<p></p>
+		</div>
+		<div class = "block" id = "15">
+			<p></p>
+		</div>
+		</div>
+	</div>
+</div>
+</body>
+<script>
+	function init(){
+		game.init();
+}
+window.addEventListener('load',init);
+</script>
+</html>

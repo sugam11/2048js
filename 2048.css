@@ -1,0 +1,138 @@
+#body-container{
+	display: flex;
+	flex-direction : column;
+	justify-content: center;
+    align-items: center;
+}
+
+#display-container{
+	display: flex;
+	justify-content:center;
+	margin-left: 15.8%;
+}
+
+#game-container {
+	position: absolute;
+	z-index: 1;
+	color : #776e65;
+	font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 18px;
+	
+	top : 208px;
+
+}
+#undo >p{
+	height: 100px;
+  width: 100px;
+  color: red;
+  background-color: black;
+  border: none;
+  font-size: 36px;
+  align-items: center;
+    display: flex;
+}
+#New-Game >p{
+	height: 100px;
+  width: 200px;
+  color: red;
+  background-color: black;
+  border: none;
+  font-size: 36px;
+  align-items: center;
+    display: flex;
+}
+
+.block{
+	height:100px;
+	width:100px;
+	background: rgb(204, 192, 179);
+	border:3px solid rgb(187,173,160);
+	border-bottom : none;
+}
+
+.grid-row{
+	display: flex;
+	border:3px solid rgb(187,173,160);
+}
+
+#score-display{
+	width  : 215px;
+	height : 200px;
+	background : black;
+	color : red;
+	font-size:18px;
+	
+}
+#score-display p{
+	font-size: 36px;
+  text-align: center;
+  
+}
+h3{
+	font-size: 36px;
+  text-align: center;
+}
+#highscore-display p{
+	font-size: 36px;
+  text-align: center;
+  
+}
+#highscore-display{
+	width  : 215px;
+	height : 200px;
+	background : black;
+	color : red;
+	font-size:18px;
+}
+
+.class0{
+	color:rgb(204, 192, 179);
+}
+.class2{
+	background: rgb(238,228,218);
+	color: black;
+
+}
+
+#game-container p{
+	font-size:60px;
+	margin:0px;
+	text-align: center;
+	line-height: 100px;
+}
+.class4{
+	background: rgb(237,224,200);
+	color: black;
+
+}
+
+.class8{
+	background: rgb(242,177,121);
+	color: black;
+
+}
+.class16{
+	background: rgb(245,149,99);
+	color: black;
+	font-size: 14px;
+}
+
+.class32{
+	background: rgb(246,124,95);
+	color: black;
+	font-size: 14px;
+}
+
+
+.class64{
+	background: rgb(246,94,59);
+	color: black;
+	font-size: 14px;
+}
+
+.class128,.class256,.class512,.class1024,.class2048{
+	background: rgb(237,207,114);
+	color: black;
+	font-size: 14px;
+}
+
